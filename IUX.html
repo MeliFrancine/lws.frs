@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IUX</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="mainDiv">
+         <div class="sidebar">
+             
+             <ul>
+                <li><h3>M-SoftTech  <i class="fa-solid fa-bars"></i></h3></li>
+                <li><a href="#"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fa-solid fa-chart-pie"></i> Charts</a></li>
+                <li><a href="#"><i class="fa-solid fa-list"></i> Projects</a></li>
+                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i> Orders</a></li>
+                <li><a href="#"><i class="fa-solid fa-list"></i> Inventory</a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i> Accounts</a></li>
+                <li><a href="#"><i class="fa-solid fa-table-list"></i> Tasks</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i> Notification</a></li>
+                <li><a href="#"><i class="fa-solid fa-circle"></i> Icons</a></li>
+            </ul>
+            <style>
+    
+                .mainDiv{
+                    display: grid;
+                    grid-template-columns: 15% 80%;
+                    grid-gap: 10px;
+                    background: whitesmoke;
+                    height:660px;
+                    overflow: hidden !important;
+                }
+                .sidebar ul{
+                    padding: 15px !important;
+                    padding-top: 5px !important;
+                    margin-top: 5px !important;
+                    margin-left: 0% !important;
+                }
+                .sidebar{
+                    display: block;
+                    background: rgb(0, 102, 255);
+                    color: white;
+                }
+                .sidebar h3 i{
+                    float: right;
+                }
+               
+                .sidebar ul li{
+                    list-style: none;
+                    margin-top: 25px;
+                    margin-bottom: 25px;
+                }
+                .sidebar ul li a{
+                    text-decoration: none;
+                    color: gainsboro;
+                    font-size: 15px;
+                }
+                .sidebar ul li a i{
+                    margin-right: 5px;
+                }
+            </style>
+         </div>
+         <div class="content">
+           <div class="Navbar">
+            <ul>
+                <li>Dashboard</li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-solid fa-bell"></i></li>
+                <li> <img src="3.png" width="80%" alt=""></li>
+                <li>
+                    Joseph Tita   <i class="fa-solid fa-ellipsis-vertical"></i></li>
+                    
+                </ul>
+                <hr>
+            
+           </div>
+           <style>
+            .Navbar ul li{
+                list-style: none;
+                display: inline-block;
+                margin: 10px;
+                padding-bottom: 5px;
+                padding-left: 9px;
+                padding-right: 9px;
+                padding-top: 8px;
+                justify-items: center;
+            }
+            .Navbar ul{
+                display: flex;
+                margin-left: 0% !important;
+            }
+            .Navbar ul li:nth-child(1){
+               margin-right: 650px;
+               color: gray;
+               font-size: larger;
+            }
+          
+            .Navbar ul li:nth-child(5){
+              font-size: medium;
+              background: white;
+              padding-right: 20px;
+              color: gray;
+              margin-left: 0% !important;
+              border-top-right-radius:50px ;
+              border-bottom-right-radius: 50px;
+              padding-top: 15px !important;
+              padding-left: 0% !important;
+            }
+            .Navbar ul li:nth-child(4){
+                width: 2%;
+                border-top-left-radius:50px ;
+                border-bottom-left-radius: 50px;
+                background: white;
+                margin-right: 0% !important;
+            }
+            .Navbar ul li:nth-child(4) img{
+                border-radius: 50px;
+            }
+            .Navbar ul li:nth-child(2){
+              border-radius: 50px;
+              background: white;
+              color:rgb(0, 102, 255) ;
+            }
+            .Navbar ul li:nth-child(3){
+                border-radius: 50px;
+                background-color:rgb(0, 102, 255);
+                color: white !important;
+            }
+            .Navbar hr{
+                color: gainsboro;
+                margin-top: 0% !important;
+                border: 1px solid rgb(240, 237, 237);
+            }
+           </style>
+           <div class="contentitem">
+           <!-- Div 1-->
+            <div class="divbox">
+              <div class="header">
+             Sale <span class="span_left"><i class="fa-solid fa-chart-line"></i></span>
+             <p class="amount">67342</p>
+             <p class="headerdody"><span class="uparrow"><i class="fa-solid fa-arrow-up"></i> 5.674%</span> since last Month</p>
+              </div>
+            </div>
+            <!-- Div 2-->
+            <div class="divbox">
+                <div class="header">
+                    Purchases <span class="span_left"><i class="fa-solid fa-circle-notch"></i></span>
+                    <p class="amount">2343</p>
+                    <p class="headerdody"><span class="downarrow"><i class="fa-solid fa-arrow-down"></i> 5.64%</span> since last Month</p>
+                </div>
+            </div>
+            <!-- Div 3-->
+            <div class="divbox">
+                <div class="header">
+                    Order<span class="span_left"><i class="fa-solid fa-bag-shopping"></i></span>
+                    <p class="amount">35343</p>
+                    <p class="headerdody"><span class="uparrow"><i class="fa-solid fa-arrow-up"></i> 5.674%</span> since last Month</p>
+                    
+                </div>
+            </div>
+            <!-- Div 4-->
+            <div class="divbox">
+                <div class="header">
+                   <p>Overview</p>
+                   <div class="item4">
+                       <p>Member profite <span>+2343</span></p>
+                       <p>last month</p>
+                   </div>
+
+                   <div class="item4">
+                    <p>Member profite <span>+2343</span></p>
+                    <p>last month</p>
+                </div>
+
+                <div class="item4">
+                    <p>Member profite <span>+2343</span></p>
+                    <p>last month</p>
+                </div>
+                </div>
+            </div>
+            <!-- Div 5-->
+            <div class="divbox">
+                <div class="header">
+                     <p>Total Sale <span class="button">View All</span></p>
+                     <div class="progress">70%</div>
+                </div>
+            </div>
+            <!-- Div 6-->
+            <div class="divbox">
+                <div class="header">
+                    <p>Activity <span class="button">View All</span></p>
+
+                </div>
+            </div>
+           </div>
+
+         </div>
+         <style>
+            .contentitem{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                width: 95%;
+                margin-left: auto;
+                margin-right: auto;
+                grid-gap: 20px;
+            }
+            .contentitem .divbox{
+                background: white;
+                padding: 10px;
+                box-shadow: 1px 1px 1px 1px gainsboro;
+            }
+            .header .span_left{
+                float: right;
+                border-radius: 50px;
+                background-color: whitesmoke;
+                color: rgb(0, 102, 255);
+                padding: 10px;
+            }
+            .header  p{
+                font-size: 13px;
+                color: gray;
+            }
+            .header .amount{
+                font-size: 18px;
+                font-weight: bold;  
+            }
+            .header .uparrow{
+              color: green;
+            }
+            .header .downarrow{
+              color: red;
+            }
+         </style>
+    </div>
+</body>
+</html>
